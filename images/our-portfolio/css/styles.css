@@ -1,0 +1,141 @@
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo:active,
+.accent:active {
+color: #404BBF;
+}
+
+.accent {
+    color: #2E2F42;
+}
+
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.menu-address-link {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-address-link:hover,
+.menu-address-link:active {
+    color: #404BBF;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
+
+.top-address {
+    font-style: normal;
+}
+
+.order-service-baner {
+    background-color: #2E2F42;
+}
+
+
+.ord-ser-ban-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.order-button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.feuter-title,
+.team-item-title,
+.portfolio-item-title {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.team-item-list {
+    background-color: #FFFFFF;
+}
+
+.feuter-desc,
+.team-desc,
+.portfolio-desc {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title,
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.bottom {
+    background-color: #2e2f42;
+}
+
+.accent-bottom {
+    color: #F4F4FD;
+}
+
+.bottom-desc {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
