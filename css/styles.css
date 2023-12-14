@@ -232,6 +232,43 @@ button {
 
 /* ======/MOBILE HEADER STYLES END====== */
 
+.order-service-baner {
+    background-color: #2E2F42;
+        padding-bottom: 72px;
+        padding-top: 72px;
+        background-image:
+            linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero/hero-main-mobile1x.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+}
+
+@media(min-device-ratio:2),
+(min-resolution:192dpi),
+(min-resolution:2dppx) {
+    .order-service-baner{
+        background-image:
+            linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero/hero-main-mobile2x.jpg);
+    }
+}
+
+/* ======MOBILE BANER 1 STYLES====== */
+
+@media(min-device-ratio:2),
+(min-resolution:192dpi),
+(min-resolution:2dppx) {
+
+}
+
+/* ======MOBILE BANER 1 STYLES END====== */
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 736px;
