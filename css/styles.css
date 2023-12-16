@@ -599,8 +599,6 @@ button {
 .form {
     display: block;
     column-gap: 24px;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
 }
 
@@ -1078,14 +1076,15 @@ min-width: 169px;
 /*========TABLET TEAM STYLES END======*/
 
 /*========TABLET Portfolio STYLES======*/
-/* @media screen and (min-width: 768px) {
+
     .portfolio-item {
-    display: flex;
-        flex-wrap: wrap;
-        column-gap: 24px;
-        row-gap: 48px;
+            flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 72px;
+            flex-direction: row;
+            padding-left: 0;
     }
-} */
+
 /*========TABLET Portfolio STYLES END======*/
 
 /*========TABLET Footer STYLES======*/
@@ -1102,6 +1101,7 @@ min-width: 169px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    row-gap: 72px;
 }
 
 .footer-social-links-title {
@@ -1134,6 +1134,15 @@ min-width: 169px;
 }
 /*========TABLET Footer STYLES END======*/
 
+/*========TABLET MODAL WINDOW STYLES======*/
+.modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px;
+}
+
+/*========TABLET MODAL WINDOW STYLES END======*/
+
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -1141,6 +1150,8 @@ min-width: 169px;
     }
 
     /* ======DESKTOP HEADER STYLES====== */
+    
+
     /* ======/DESKTOP HEADER STYLES END====== */
 
 }
